@@ -7,14 +7,13 @@ import org.apache.camel.spring.Main;;
  */
 public class MainApp {
 
-    /**
-     * A main() so we can easily run these routing rules in our IDE
-     */
-    public static void main(String... args) throws Exception {
-        Main main = new Main();
-        main.enableHangupSupport();
-        //main.addRouteBuilder(new MyRouteBuilder());
-        main.run(args);
-    }
-
+	/**
+	 * A main() so we can easily run these routing rules in our IDE
+	 */
+	public static void main(String... args) throws Exception {
+		Main main = new Main();
+		main.enableHangupSupport();
+		//main.addRouteBuilder(new MyRouteBuilder());
+		main.run( args );
+	}
 }
